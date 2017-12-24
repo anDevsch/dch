@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.dch.bean.User" table="user_login">
+		<id name="id"  type="string" >
+		<column name="id" length="32" not-null="true"></column>
+			<generator class="uuid.hex"></generator>
+		</id>
+		
+		<property name="phonenumber" column="phonenumber" type="string"></property>
+		<property name="password" column="password" type="string"></property>
+		<property name="nickname" column="nickname" type="string"></property>
+		<property name="sex" column="sex" type="string"></property>
+		<property name="age" column="age" type="integer"></property>
+		<property name="headpng" column="headpng" type="string"></property>
+		<property name="grade" column="grade" type="string"></property>
+		<property name="classnumber" column="classnumber" type="string"></property>
+		<property name="email" column="email" type="string"></property>
+		<property name="sign" column="sign" type="string"></property>
+		<property name="datetime" column="datetime" type="java.util.Date"></property>
+		<property name="struts" column="struts" type="integer"></property>
+		<property name="borrowdata" column="borrowdata" type="integer"></property>
+		<!-- <property name="books_id" column="books_id" type="string"></property> -->
+		
+		<set name="books_id"  cascade="all"  lazy="false" fetch="join" batch-size="5"> 
+			<key column="user_id" />
+			<one-to-many class="com.dch.bean.Book" />
+		</set>
+		<set name="friend_from_id"  cascade="all"  lazy="false" fetch="join" batch-size="5"> 
+			<key column="from_id" />
+			<one-to-many class="com.dch.bean.Friends" />
+		</set>
+		<set name="friend_to_id"  cascade="all"  lazy="false" fetch="join" batch-size="5"> 
+			<key column="to_id" />
+			<one-to-many class="com.dch.bean.Friends" />
+		</set>
+	</class>
+</hibernate-mapping>

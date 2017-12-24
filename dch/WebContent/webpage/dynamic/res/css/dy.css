@@ -1,0 +1,91 @@
+a:hover,a:link,a:active,a:focus,a:visited{text-decoration: none;border:0;outline:none;color:#555;}
+
+.list{margin-bottom:25px;min-height:176px;width:100%;overflow:hidden;display:block;padding-bottom:25px;background-color:#fff;}
+.list h3{font-weight:100;display:block;width:91%;height:25px;padding:0px 15px;font-family:"Bahamas";font-size:17px;color:#555;border-bottom:1px solid #ddd;}
+.list .one{position:relative;width:50px;height:50px;display:inline-block;margin:12px 2px 6px 22px;background-size:cover;background-image:url('../png/ad.jpg');}
+.list .one:hover{width:55px;height:55px;margin:9px 0px 4px 19px;}
+.showuser{display:none;width:150px;overflow:hidden;position:fixed;background-color:#fff;Z-index:9;border:2px solid #ddd;}
+.showuser span{max-height:28px;overflow:hidden;color:#698C78;font-family:"Bahamas";font-size:12px;display:block;margin:8px 12px;width:125px;}
+.showuser span a{color:#5A5C96;}
+
+
+body{
+	background-color:#eee;
+	font-family:"Bahamas";
+}
+.body{
+	position:relative;
+	width:1100px;
+	margin:40px auto;
+	margin-top:80px;
+	min-height:500px;
+}
+.tita{
+	left:25px;
+	font-family:"Bahamas";
+	position:absolute;
+	top:-60px;
+	width:180px;
+	height:40px;
+	font-size:35px;
+	color:#555;
+}
+.dy_left{
+	width:69%;
+	display:inline-block;
+	min-height:500px;
+	background-color:#fff;
+	
+}
+.dy_nemo{
+	color:#555;
+	width:94%;
+	padding:18px 3%;
+	border-bottom:1px solid #ddd;
+	height:200px;
+	display:block;
+	font-family:"Bahamas";
+}
+p{
+	
+	max-height:85px;overflow:hidden;
+}
+.nemo_left{
+	width:20%;
+	height:89%;
+	display:inline-block;
+	padding:12px;
+	border-right:1px solid #ddd;
+}
+.nemo_left img{
+	height:100%;
+	width:100%;
+}
+.nemo_right{
+	height:100%;
+	width:73%;
+	float:right;
+	position:relative;
+}
+.nemo_right span{
+	position:absolute;
+	bottom:0px;
+	right:0px;
+}
+.nemo_right h3{color:#1E5286;background-color: #E0E3EA;}
+.nemo_right a:link{color:#1E5286;}
+
+.dy_right{
+	width:29%;
+	min-height:200px;
+	float:right;
+	background-color:#fff;
+}
+
+
+
+.spite{margin:0px auto;width:400px;}
+.spite ul{margin:0px;padding:0px;color:#555;margin-bottom:30px;}
+.spite li{list-style-type:none;display:inline-block;background-color:#c7c7c7;margin:0px 3px;border-radius:5px;}
+/*.spite li:hover{background-color:#ddd;}*/
+.spite li span{padding:7px 20px;display:inline-block;}

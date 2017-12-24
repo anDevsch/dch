@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>  
+	<!-- 开启使用开发模式，详细错误提示 -->  
+	<constant name="struts.devMode" value="false" />  
+    <!-- 将对象交给spring管理 -->  
+    <constant name="struts.objectFactory" value="spring" />  
+    <!-- 指定资源编码类型 -->  
+    <constant name="struts.i18n.encoding" value="UTF-8" />   
+    <!-- 指定每次配置文件更改后，自动重新加载 -->  
+    <constant name="struts.configuration.xml.reload" value="false" />
+    <!--include file="struts-default.xml"/-->
+    
+	<package name="dch" extends="struts-default" namespace="/">
+		<global-results>
+			<result name="error">load.jsp</result>
+			<result name="text">text.jsp</result>
+		</global-results>
+		
+		<action name="random" class="randomAction">     
+	       <result type="stream">     
+	            <param name="contentType">image/jpeg</param>     
+	            <param name="inputName">inputStream</param>     
+	       </result> 
+   		</action> 
+		<!-- 
+		<action name="Login" class="loginuserAction">
+		</action>
+		
+		<action name="Exit" class="exitAction">
+			<result name="success">webpage/login/login.jsp</result>
+		</action>
+		<action name="Register" class="registeruserAction">
+			<result name="success">login.jsp</result>
+			<result name="error">Tologin</result>
+		</action>
+		<action name="myUser" class="myuserAction">
+			<result name="success">webpage/user/user.jsp</result>
+		</action>
+		<action name="UpBook" class="upbookAction">
+		</action>
+		-->
+		
+		<action name="GetBook" class="getbookAction">
+		</action>
+		
+		<action name="Friend_cir" class="friend_cirAction">
+			<result name="success">webpage/friends_circle/friends_circle.jsp</result>
+		</action>
+		
+		
+		
+		<action name="FindUser" class="finduserAction">
+			<result name="success">webpage/finduser/finduser.jsp</result>
+		</action>
+		<action name="OrderBook" class="orderbookAction">
+			<result name="success">webpage/orderbook/orderbook.jsp</result>
+		</action>
+		
+		<action name="Addremark" class="addremarkAction">
+		</action>
+		<action name="getBookByUser" class="getBookByUserAction">
+			<result name="success">booksbyuser.jsp</result>
+		</action>
+		
+		<action name="To*" class="ToPathPageAction" method="to{1}page">
+			<result name="success">webpage/{1}/{1}.jsp</result>
+		</action>
+		<action name="test" class="testAction">
+		<!-- 	<exception-mapping result="error" exception="java.lang.Exception" />  -->
+			<result name="success">test.jsp</result>
+		</action>
+	</package>
+</struts>

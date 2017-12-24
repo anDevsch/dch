@@ -1,0 +1,82 @@
+
+
+
+
+
+
+body{background-color:#eee;font-family:"Bahamas";}
+#body{width:1100px;display:block;position:relative;background-color:#fff;margin:0px auto;}
+.bookdiv{width:96%;display:block;overflow:hidden;position:relative;}
+.bookdiv .bookpng{box-shadow: 0 0 10px #999;overflow:hidden;float:left;display:inline-block;width:14%;height:200px;margin:60px 53px;background-position:center;background-size:auto 200px;background-repeat:no-repeat;}
+.bookdiv .bookmessage{width:75%;overflow:hidden;float:right;display:inline-block;border-left:1px solid #ddd;}
+.bookdiv .bookmessage .messtop{width:100%;height:80px;padding:10px 20px;display:block;border-bottom:1px solid #ddd;}
+.messtop span{font-family:"Bahamas";display:block;width:100%;height:30px;font-size:25px;color:#565;padding:7px 10px;}
+.messtop span + span {font-family:"Bahamas";display:block;width:100%;height:30px;font-size:15px;color:#665;padding:12px 10px;}
+.messtop span a{margin:0px 20px 0px 0px;}
+.bookmessage .borrow{width:100%;height:80px;padding:10px 20px;display:block;border-bottom:1px solid #ddd;}
+.bookmessage .jianjie{width:100%;padding:10px 20px;display:block;overflow:hidden;}
+.bookmessage .jianjie span{font-family:"Bahamas";display:block;width:95%;min-height:30px;font-size:12px;color:#665;padding:15px 18px;}
+
+.blank{width:100%;display:block;height:40px;background-color:#eee;}
+.pinglun{display:block;width:100%;position:relative;background-color:#eee;overflow:hidden;}
+.pinglun .pingleft{display:inline-block;width:66%;overflow:hidden;min-height:300px;border-right:1px solid #ddd;background-color:#fff;}
+
+.title{width:95%;margin:10px 15px;height:40px;}
+.title span{width:95%;font-family:"Bahamas";height:30px;font-size:25px;color:#565;display:block;padding:10px 0px;border-bottom:1px solid #ddd;}
+
+.pingsmarty{width:100%;border-bottom:1px solid #ddd;overflow:hidden;}
+.smartypng{height:60px;width:60px;float:left;display:inline-block;margin:25px 0px 40px 40px;border-radius:30px;}
+.smartypng img{height:60px;width:60px;border-radius:30px;border:0px;}
+.smartyother{width:83%;display:inline-block;padding:10px;float:right;overflow:hidden;}
+
+.smartyother span{width:90%;background:#eee;height:15px;display:block;font-family:"Bahamas";padding:10px 5%;color:#555;}
+.smartyother span a{float:left;font-size:15px;}
+.smartyother span a + a{float:right;font-size:15px;}
+.smartyother span + span{width:90%;background:#def;height:auto;display:block;font-family:"Bahamas";color:#555;overflow:hidden;}
+.fonction{width:100%;display:block;height:30px;background-color:#dff;}
+.zan ,.hf,.hff{height:15px;width:15px;background-size:100% 100%;display:inline-block;margin:7px 28px;}
+.zan{background-image:url('../png/zan.gif')}
+.hf{background-image:url('../png/hf.gif')}
+.hff{background-image:url('../png/hf.gif')}
+
+.pinglun .pingright{display:inline-block;width:33%;float:right;overflow:hidden;background-color:#fff;}
+.pingright .recommend{width:100%;min-height:250px;display:block;overflow:hidden;}
+.recommend .recommend_book{width:138px;height:180px;margin:25px 4px 5px 25px;display:inline-block;background-size:cover;background-position:center;}
+.recommend .recommend_book:hover{margin:22.5px 1.5px 2.5px 22.5px;width:143px;height:185px;}
+
+.borrow span{width:90%;height:40px;font-family:"Bahamas";font-size:24px;color:#456;display:block;padding:2px 0px 0px 12px;}
+.borrow span a{font-family:"Bahamas";font-size:18px;color:#1660ad;}
+.borrow .order_action{width:90%;height:40px;}
+.order_action button{height:38px;padding:0px 15px;margin:.5px 20px;background-color:#ddf;border:0px;font-family:"Bahamas";font-size:17px;color:#f8748e;}
+button.jieyue{background-color:#fdd;}
+button.yuding{background-color:#ddf;color:#408080;}
+.praise{position:absolute;bottom:35px;left:100px;}
+.praise img{height:15px;margin-right:5px;}
+.praise a{font-family:"Bahamas";font-size:18px;color:#1660ad;}
+
+
+
+
+#remark{display:none;position:fixed;width:100%;height:100%;Z-index:5;background-color:rgba(200,200,200,.4)}
+.remark{display:block;overflow:hidden;padding:15px;width:600px;Z-index:6;background-color:#fff;top:50%;left:50%;position:fixed;margin-left:-315px;margin-top:-165px;}
+.textarea{border-radius:5px;font-family:"Bahamas";font-size:17px;color:#454EBD;height:150px;width:550px;margin:0px auto;position:relative;display:block;border:1px solid #7E9FDC;}
+.remark button{height:35px;width:80px;display:block;background-color:#8FC0FD;border:0px;border-radius:3px;font-family:"Bahamas";font-size:17px;color:#fff;margin:10px 22px;float:left;}
+.remark button.submit{float:right;}
+.remark h2{margin-top:0px;font-family:"Bahamas";font-size:20px;color:#565761;}
+.remark span{width:550px;display:block;overflow:hidden;margin:5px auto;font-family:"Bahamas";font-size:15px;color:#2B7F98;}
+.remark span a{display:block;}
+
+
+.showuser{display:none;width:150px;overflow:hidden;position:fixed;background-color:#fff;Z-index:9;border:2px solid #ddd;}
+.showuser span{max-height:28px;overflow:hidden;color:#698C78;font-family:"Bahamas";font-size:12px;display:block;margin:8px 12px;width:125px;}
+.showuser span a{color:#5A5C96;}
+
+
+
+
+
+
+
+
+
+

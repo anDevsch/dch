@@ -1,0 +1,99 @@
+
+
+
+
+body{background-color:#eee;margin:0;font-family:"Bahamas";font-size:15px;}
+#body{margin:0 auto;padding:0px;width:1100px;position:relative;background-color:#eee;}
+a.ttt{display:block;margin:20px 40px;font-family:"Bahamas";font-size:35px;color:#555;position:relative;}
+.bookcircle{width:100%;position:relative;display:block;background-color:#eee;}
+
+.showuser{display:none;width:150px;overflow:hidden;position:fixed;background-color:#fff;Z-index:9;border:2px solid #ddd;}
+.showuser span{max-height:28px;overflow:hidden;color:#698C78;font-family:"Bahamas";font-size:12px;display:block;margin:8px 12px;width:125px;}
+.showuser span a{color:#5A5C96;}
+
+.focuscircle{width:100%;display:block;}
+.concent{height:760px;width:100%;display:block;background-color:#eee;}
+.concent .left{margin:10px 0px 10px 10px;float:left;width:28.5%;overflow:hidden;position:relative;}
+.concent .left .leftlist{margin-bottom:25px;min-height:176px;width:100%;overflow:hidden;display:block;padding-bottom:25px;background-color:#fff;}
+.concent .right{margin:10px;float:right;width:68%;height:730px;border:1px solid #ddd;position:relative;background-color:#fff;}
+.leftlist span{display:block;width:100%;height:25px;padding:5px 15px;font-family:"Bahamas";font-size:17px;color:#555;border-bottom:1px solid #ddd;}
+.leftlist .one{width:50px;height:50px;display:inline-block;margin:12px 12px 6px 12px;background-size:cover;background-image:url('../png/ad.jpg');}
+.leftlist .one:hover{width:55px;height:55px;margin:9px 10px 4px 9px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.concent .title{display:block;height:55px;width:100%;border-bottom:1px solid #ddd;}
+.concent .title span{font-family:"Bahamas";font-size:17px;color:#899;display:block;font-weight:800;padding:14px 10px;background-color:#ffffff;}
+.concent .title a{margin:0px 5px;}
+.concent ul{margin:0px;padding:0px;overflow:auto;height:282px;}
+.concent li.focuslist{overflow:hidden;list-style-type:none;display:bolck;height:65px;position:relative;}
+.concent .img{margin:6.3px;height:52px;width:52px;float:left;display:inline-block;border:0px;border-radius:26px;overflow:hidden;background-color:#fff;}
+.concent .focuslist img{height:52px;width:52px;border:0px;}
+.concent li.focuslist span{display:inline-block;height:49px;float:left;width:160px;padding:8px 15px;font-family:"Bahamas";}
+.concent li.focuslist span a{height:23px;display:block;font-size:17px;color:#555;font-weight:bold;overflow:hidden;text-overflow:ellipsis;}
+.concent li.focuslist span a + a{height:15px;display:block;font-size:12px;color:#aaa;font-weight:normal;overflow:hidden;text-overflow:ellipsis;}
+.concent li.focuslist .focus{position:absolute;right:15px;top:15px;height:15px;width:15px;background-image:url('../png/icon.png');background-position:15px 80px;}
+.concent li.focuslist .focus .ch-an{position:absolute;height:12px;width:40px;display:block;bottom:-12px;left:-10px;}
+.concent li.focuslist .focus .ch-an a{font-family:"Bahamas";font-size:10px;color:#aaa;}
+
+
+
+
+
+
+
+
+.right .top{display:block;width:100%;height:180px;}
+.right .top .headpng{display:inline-block;width:120px;height:120px;padding:30px;}
+.right .top .headpng .img{margin:0px;padding:0px;border-radius:0px;width:120px;height:120px;display:block;background-size:cover;background-color:#ddd;}
+.right .top .headpng .guanzhu{display:block;position:absolute;width:120px;height:42px;bottom:0px;position:relative;}
+.right .top .message{display:inline-block;height:120px;padding:30px;width:505px;float:right;}
+.right .top .headpng .guanzhu span{display:inline-block;height:30px;width:60px;font-family:"Bahamas";text-align:center;color:#555;}
+.right .top .headpng .guanzhu span a{font-size:17px;font-weight:500;display:block;}
+.right .top .headpng .guanzhu span a + a{font-size:14px;font-weight:normal;}
+.message span{display:block;margin:15px 0px;width:auto;font-family:"Bahamas";font-size:30px;color:#333;}
+.message span +span{font-size:15px;}
+.message span a{display:inline-block;margin:0px 8px;} 
+
+.bottom{width:100%;height:550px;display:block;position:relative;}
+.bottom .focus-menu {height:40px;width:100%;display:block;padding-top:10px;}
+.bottom .focus-menu span{background-color:#ddd;display:block;height:40px;width:100%;font-family:"Bahamas";font-size:17px;font-weight:300;}
+.bottom .focus-menu span a{background-color:#ddd;margin:0px 7%;display:inline-block;width:35%;padding:5px 0px 9px 0px;margin-top:6px;}
+.bottom .focus-menu span a+ a{background-color:#ddd;}
+
+.bottom .fen-book{height:500px;width:95%;display:block;padding:5px 20px;overflow:scroll;}
+/*.bottom .fen-book .recommend_book{overflow:hidden;width:20%;height:200px;margin:18px 17px;display:inline-block;position:relative;background-repeat:no-repeat;background-size:cover;background-position:center;}*/
+.bottom .fen-book .recommend_book{width:138px;height:180px;margin:25px 4px 5px 25px;display:inline-block;background-size:cover;background-position:center;}
+.bottom .fen-book .recommend_book:hover{margin:22.5px 1.5px 2.5px 22.5px;width:143px;height:185px;}
+
+
+
+
+
+.circle{width:99%;height:280px;background:#fff;margin:0 auto;font-family:"Bahamas";font-size:17px;}
+.lef{width:33%;display:inline-block;height:100%;float:left;}
+.cen{width:33%;display:inline-block;height:100%;border-left:1px solid #aaa;border-right:1px solid #aaa;float:left;margin:0px 1px;}
+.rig{width:33%;display:inline-block;height:100%;float:left;}
+
+.circle a{font-family:"Bahamas";font-size:17px;text-align:center;margin:10px auto;width:100%;display:block;}
+.blank{padding:50px 0px 0px 0px;width:100%;}
+.blank > a{height:80px;width:80px;border-radius:40px;margin:0px auto;display:block;}
+.circle a img{height:80px;width:80px;border-radius:40px;}
+.circle span{font-size:13px;text-align:center;display:block;width:70%;margin:10px auto;color:#aaa;}
+
+.circle-other{padding:0px 0px 0px 32px;width:96%;height:130px;border-top:1px solid #aaa;background:#fff;margin:0 auto;font-family:"Bahamas";font-size:17px;}
+.circle-other .circle-other-buttom{height:100%;width:20%;display:inline-block;float:left;}
+.circle-other-buttom a{float:left;padding:0px 5px 0px 5px;height:80px;width:80px;border-radius:40px;margin:25px auto;display:inline-block;}
+.circle-other-buttom a img{height:80px;width:80px;border-radius:40px;}
+.circle-other-buttom a span{font-size:17px;display:block;color:#222;margin:10px 0px;}
+.circle-other-buttom a span + span{font-size:10px;color:#aaa;margin:0px;}

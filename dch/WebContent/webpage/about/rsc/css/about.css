@@ -1,0 +1,72 @@
+body{
+	margin:0px;padding:0px;
+	background-color:#eee;
+	font-family:"Bahamas";
+}
+.bod{
+	width:1000px;
+	margin:30px auto;
+	padding:70px 40px;
+	background-color:#fff;
+}
+* {
+            color: #777;
+}
+
+#main {
+    /*border:1px solid red;*/
+    width: 920px;
+    height: 1600px;
+    margin: 0 auto;
+    border-bottom: 4px solid #D61F21;
+    border-radius-topleft: 2px;
+    border-radius-topright: 2px;
+    position: relative;
+    padding: 0 40px 10px 40px;
+}
+
+h2 {
+    width: 920px;
+    height: 40px;
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #C4000C;
+}
+
+p {
+    line-height: 25px;
+    font-size: 15px;
+    margin: 12px 0;
+}
+
+    p.tit {
+    	text-align:center;
+    	font-size:27px;
+        font-weight: 600;
+    }
+
+    p.banquan {
+        color: white;
+        line-height: 80px;
+        margin: 0;
+    }
+
+.date {
+    display: block;
+    font-size: 12px;
+    width: 70px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.summary {
+    text-indent: 2em;
+}
+p{
+	line-height:45px;
+}
+
+
+a.upfile_a{display:block;width:1000px;margin:25px auto;font-family:"Bahamas";font-size:35px;color:#555;position:relative;}
